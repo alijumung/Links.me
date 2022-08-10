@@ -4,6 +4,14 @@
 a{
   text-decoration: none;
 }
+img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: solid;
+  border-color: #5643CC;
+}
 
 body{
   background-color: black;
