@@ -6,11 +6,12 @@ a{
 }
 img{
   border-radius: 50%;
-  width: 150px;
+  width:  150px;
   height: 150px;
   margin: auto;
-  border: solid;
-  border-color: #5643CC;
+  background-image: -webkit-gradient(linear, right bottom , left top, color-stop(0.33, #cc2b5e), color-stop(0.67, #753a88));
+  background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
+  padding: 2px;
 }
 
 body{
@@ -47,7 +48,7 @@ body{
 }
 
 #link-btn{
-  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  background-image: linear-gradient(92.88deg, #753a88 9.16%, #753a88 50.89%, #cc2b5e 90.72%);
   margin-bottom: 20px;
   border-radius: 8px;
   border-style: none;
@@ -67,7 +68,7 @@ body{
   touch-action: manipulation;
 }
 #link-btn:hover {
-  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  box-shadow: #753a88 0 1px 30px;
   transition-duration: .1s;
 }
 .links{
